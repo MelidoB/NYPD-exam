@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NYPD Exam Practice</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>NYPD Police Officer Exam Practice</h1>
+        <div class="disclaimer">
+            <p><strong>DISCLAIMER:</strong> This is an unofficial study tool. The questions are designed to simulate the format and cognitive skills tested on the NYPD exam, but they are not actual questions from any past or present test.</p>
+        </div>
+        <div class="menu">
+            <a href="{{ url_for('quiz') }}" class="btn">Start a Timed Quiz</a>
+            <a href="{{ url_for('quiz') }}" class="btn btn-secondary">Flashcard Study Mode</a>
+        </div>
+    </div>
+</body>
+</html>

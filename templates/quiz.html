@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Mode - NYPD Practice</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <!-- Setup Screen -->
+        <div id="setup-screen">
+            <h2 id="mode-title">Quiz Setup</h2>
+            <div class="setup-controls">
+                <div class="control-group">
+                    <label for="section-select">Select a Section:</label>
+                    <select id="section-select"></select>
+                </div>
+                <div class="control-group" id="quiz-options">
+                    <label for="num-questions">Number of Questions:</label>
+                    <select id="num-questions"></select>
+                    <label for="time-limit">Time Limit (Minutes):</label>
+                    <input type="number" id="time-limit" value="10" min="1">
+                </div>
+                <button id="start-btn" class="btn">Start</button>
+                 <a href="/" class="btn btn-secondary">Back to Main Menu</a>
+            </div>
+        </div>
+
+        <!-- Quiz Screen -->
+        <div id="quiz-screen" class="hidden">
+            <div class="quiz-header">
+                <div id="question-counter"></div>
+                <div id="timer"></div>
+            </div>
+            <div id="passage-container" class="passage"></div>
+            <div id="question-container"></div>
+            <div id="answers-container"></div>
+            <button id="next-btn" class="btn">Next Question</button>
+            <div id="feedback"></div>
+        </div>
+
+        <!-- Results Screen -->
+        <div id="results-screen" class="hidden">
+            <h2>Quiz Complete!</h2>
+            <p id="score-text"></p>
+            <p id="percentage-text"></p>
+            <a href="/quiz" class="btn">Take Another Quiz</a>
+            <a href="/" class="btn btn-secondary">Back to Main Menu</a>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

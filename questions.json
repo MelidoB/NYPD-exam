@@ -1,0 +1,68 @@
+{
+  "reading_comprehension": [
+    {
+      "passage": "Department Directive #78: Found Property Procedure\n\n1. Scope: This directive applies to all uniformed members of the service who find or receive property from a civilian.\n2. Initial Action: The member of service shall issue a Property Clerk Invoice (PCI) receipt to the person who turned in the property, if present.\n3. Safeguarding: Currency over $100 must be verified by a supervisor before being vouchered.\n4. Vouchering: All found property must be vouchered at the precinct of discovery before the end of the member's tour of duty.\n5. Exception: If the owner is present and provides positive identification, the property may be returned. The officer must complete a Digital Activity Log entry.",
+      "question": "According to the directive, when can an officer return property directly to the owner at the scene?",
+      "choices": ["Never, all property must be vouchered.", "Only if the property is worth less than $100.", "If the owner provides positive identification and proof of ownership.", "If a supervisor authorizes it."],
+      "answer": "If the owner provides positive identification and proof of ownership."
+    },
+    {
+      "passage": "Department Directive #78: Found Property Procedure\n\n1. Scope: This directive applies to all uniformed members of the service who find or receive property from a civilian.\n2. Initial Action: The member of service shall issue a Property Clerk Invoice (PCI) receipt to the person who turned in the property, if present.\n3. Safeguarding: Currency over $100 must be verified by a supervisor before being vouchered.\n4. Vouchering: All found property must be vouchered at the precinct of discovery before the end of the member's tour of duty.\n5. Exception: If the owner is present and provides positive identification, the property may be returned. The officer must complete a Digital Activity Log entry.",
+      "question": "An officer finds a wallet containing $150 and an ID. The owner is not present. What specific step from the directive must be taken regarding the money?",
+      "choices": ["The money should be immediately deposited.", "The currency must be verified by a supervisor before vouchering.", "The money should be returned to the person who found the wallet.", "The officer should hold the money personally for safekeeping."],
+      "answer": "The currency must be verified by a supervisor before vouchering."
+    }
+  ],
+  "written_expression": [
+    {
+      "question": "An officer needs to state in a report that a witness seemed afraid to speak. Which is the clearest and most professional sentence?",
+      "choices": ["The witness was acting all sketchy and scared.", "The witness was visibly nervous and hesitant to provide a statement.", "The witness clammed up and wouldn't talk to me.", "I got a bad vibe from the witness, who was clearly afraid."],
+      "answer": "The witness was visibly nervous and hesitant to provide a statement."
+    },
+    {
+      "question": "Choose the most official and clear way to report a broken window.",
+      "choices": ["Somebody busted the window out.", "The window was broken.", "I noticed the window had been smashed.", "The front plate-glass window was shattered with a point of impact near the center."],
+      "answer": "The front plate-glass window was shattered with a point of impact near the center."
+    }
+  ],
+  "problem_sensitivity": [
+    {
+        "passage": "Procedure #112: Off-Duty Conduct\n\nA. An off-duty officer is generally prohibited from taking police action in minor incidents.\nB. An off-duty officer may intervene in any situation where there is an imminent threat to life or serious physical injury.\nC. An off-duty officer who witnesses a Penal Law felony in progress is authorized to take police action.\nD. If an off-duty officer takes action, they must notify the precinct of occurrence as soon as it is safe to do so.",
+        "question": "An off-duty police officer is in a department store and sees a teenager steal a t-shirt worth $20. According to Procedure #112, what is the most appropriate action for the officer to take?",
+        "choices": ["Immediately arrest the teenager.", "Use physical force to detain the teenager.", "Act as a good witness and call 911 for on-duty police.", "Ignore the incident as it is minor."],
+        "answer": "Act as a good witness and call 911 for on-duty police."
+    },
+    {
+        "passage": "Procedure #112: Off-Duty Conduct\n\nA. An off-duty officer is generally prohibited from taking police action in minor incidents.\nB. An off-duty officer may intervene in any situation where there is an imminent threat to life or serious physical injury.\nC. An off-duty officer who witnesses a Penal Law felony in progress is authorized to take police action.\nD. If an off-duty officer takes action, they must notify the precinct of occurrence as soon as it is safe to do so.",
+        "question": "An off-duty officer is at a bank and sees a masked person point a gun at a teller, demanding money. According to Procedure #112, the officer should:",
+        "choices": ["Take no action, as they are off-duty.", "Intervene because there is an imminent threat to life.", "Wait until the person leaves and then call 911.", "Only observe and take notes."],
+        "answer": "Intervene because there is an imminent threat to life."
+    }
+  ],
+  "information_ordering": [
+    {
+      "question": "A police officer responds to a report of a theft. Put the following actions in the most logical order.\n(A) Broadcast a description of the suspect.\n(B) Interview the victim.\n(C) Receive the dispatch call for the theft.\n(D) Search the immediate area for the suspect.",
+      "choices": ["A, B, C, D", "C, B, A, D", "B, C, D, A", "C, A, B, D"],
+      "answer": "C, B, A, D"
+    },
+    {
+      "question": "An officer makes a traffic stop. What is the correct sequence of events?\n(A) Request license and registration.\n(B) Advise the driver of the reason for the stop.\n(C) Observe a traffic violation.\n(D) Decide whether to issue a summons or a warning.",
+      "choices": ["C, A, B, D", "A, B, C, D", "C, B, A, D", "B, C, A, D"],
+      "answer": "C, B, A, D"
+    }
+  ],
+  "spatial_orientation": [
+    {
+        "passage": "Use the map to answer the questions. All streets are one-way as indicated by arrows.\n\n      ^ North ^\n      \n        King Ave [>]\n      +-----------------+\n      | A [Courthouse]  |\n[<] Main St --+----B [HQ]----+-- Main St [>]\n      | [Park]          |\n      +-----------------+\n        Liberty St. [<]",
+        "question": "You are at Police HQ (B) and need to go to the Courthouse (A). What is the most direct route according to the map?",
+        "choices": ["Go north on the unnamed street to King Ave, then go west on King Ave.", "Go west on Main St.", "Go south to Liberty St, then west.", "It is impossible to get there."],
+        "answer": "Go north on the unnamed street to King Ave, then go west on King Ave."
+    },
+    {
+        "passage": "Use the map to answer the questions. All streets are one-way as indicated by arrows.\n\n      ^ North ^\n      \n        King Ave [>]\n      +-----------------+\n      | A [Courthouse]  |\n[<] Main St --+----B [HQ]----+-- Main St [>]\n      | [Park]          |\n      +-----------------+\n        Liberty St. [<]",
+        "question": "To get from the Post Office (located east of HQ) to the Park, you must travel:",
+        "choices": ["West on Main St.", "East on Main St.", "North on King Ave.", "South on Liberty St."],
+        "answer": "West on Main St."
+    }
+  ]
+}
